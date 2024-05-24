@@ -68,3 +68,14 @@ This table should make this data more readable:
 | 3-striked| ===>   | 3=and > |
 | 4equals  | ====   | 4= |
 | 3equals| ===>   | 3= |
+
+```
+| ON       | Input  | OFF     |
+| -------- | ------ | --------|
+| = striked| !=     |! and =  |
+| 3-striked| !==    |!and 2=  |
+| arrow    | =>     | =and >  |
+| 3-striked| ===>   | 3=and > |
+| 4equals  | ====   | 4= |
+| 3equals| ===>   | 3= |
+```
