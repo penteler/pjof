@@ -69,7 +69,11 @@ This table should make this data more readable:
 | 4equals  | ====   | 4= |
 | 3equals| ===>   | 3= |
 
-```
+this is how you insert table in markdown
+and it seems like the spacing doesn't matter it 
+will look seam less in the output.
+
+```table
 | ON       | Input  | OFF     |
 | -------- | ------ | --------|
 | = striked| !=     |! and =  |
