@@ -4,6 +4,7 @@
     2. [s9x3 and QS15](#9315)
     3. [Ha22 and R35](#2235)
     4. [s9x3 and R35](#r35-and-s9x3)
+    4. [g36 and g85](#g36-and-g85)
 3. [Another paragraph](#paragraph2)
 
 
@@ -205,3 +206,58 @@ Performance / watt ratio		|1,106 pts / W|1,460 pts / W|
 | Geekbench 5 multi-core            | 458                                                | 329                             |
 | SGEMM GFLOPS Performance          | 5.33 GFLOPS                                        | 9.14 GFLOPS                     |
 | Performance / watt ratio          | 426 pts / W                                        | 292 pts / W                     |
+### g36 and g85
+|                               | MediaTek Helio G36                           | MediaTek MT6769Z Helio G85                   |
+|-------------------------------|---------------------------------------------|---------------------------------------------|
+| Market (main)                 | Smartphone                                  | Smartphone                                  |
+| ISA                           | ARMv8.2-A (64-bit)                          | ARMv8.2-A (64-bit)                          |
+| Microarchitecture              | Cortex-A53                                  | Cortex-A75, Cortex-A55                      |
+| Family                        | Helio G                                     | Helio G                                     |
+| Part number(s), S-Spec         |                                             |                                             |
+|                               | Helio G36                                   | MT6769Z                                     |
+| Release date                  | 2023 Q1                                     | 2020 Q3                                     |
+| Lithography                   | 12 nm FFC                                   | 12 nm FFC                                   |
+| Cores                         | 8                                           | 8                                           |
+| Threads                       | 8                                           | 8                                           |
+| Base frequency                | 1.8 GHz                                     | 1.8 GHz                                     |
+| Turbo frequency               | 2.2 GHz                                     | 2.0 GHz                                     |
+| Energy cores                  |                                             |                                             |
+|                               | 4x ARM Cortex-A53 @ 1.8 GHz                 | 6x ARM Cortex-A55 @ 1.8 GHz                 |
+| High performance cores        |                                             |                                             |
+|                               | 4x ARM Cortex-A53 @ 2.2 GHz                 | 2x ARM Cortex-A75 @ 2.0 GHz                 |
+| Cache memory                  | 2 MB                                        | 2 MB                                        |
+| Max memory capacity            | 8 GB                                        | 8 GB                                        |
+| Memory types                  |                                             |                                             |
+|                               | LPDDR3-933, LPDDR4X-1600                    | LPDDR4x-1800                                |
+| Max # of memory channels       | 2                                           | 2                                           |
+| Max memory bandwidth           | 14.9 GB/s                                   | 14.4 GB/s                                   |
+| TDP                           | 5 W                                         | 5 W                                         |
+| GPU integrated graphics        | Imagination PowerVR GE8320                  | ARM Mali-G52 MC2                            |
+| GPU execution units            | 2                                           | 2                                           |
+| GPU shading units              | 64                                          | 32                                          |
+| GPU clock                     | 680 MHz                                     | 1000 MHz                                    |
+| GPU FP32 floating point        | 41.6 GFLOPS                                 | 54.4 GFLOPS                                 |
+| Socket                        | SoC                                         | SoC                                         |
+| Max display resolution         |                                             |                                             |
+|                               | 2400 x 1080                                 | 2520 x 1080                                 |
+| Video decoding                | H.264, HEVC 1080p@30fps                     | H.264, H.265/HEVC, VP-9 2K@30fps, 1080P@60fps|
+| Video encoding                | H.264 1080p@30fps                           | H.264, H.265/HEVC, 2K@30fps, 1080P@60fps    |
+| Max camera ISP                | 50MP; 25MP; 13MP + 13MP                     | 16MP + 16MP, 48MP                          |
+| Max video capture             | -                                           | 16MP + 16MP@30fps; 25MP@30fps              |
+| Cellular technologies         | 4G, FDD, TDD, HSPA, CDMA2000, EVDO          | 4G, CDMA2000, EVDO, HSPA+                  |
+| GNSS                          | Beidou, Galileo, Glonass, GPS, QZSS         | Beidou, Galileo, Glonass, GPS               |
+| LTE category                  | Cat-7 DL / Cat-13 UL; Cat-4                 | Cat-7 DL / Cat-13 UL                        |
+| Wi-Fi                         | Wi-Fi 5 (b/g/n/ac)                          | Wi-Fi 5 (a/b/g/n/ac)                        |
+| Bluetooth                     | Bluetooth 5.0                               | Bluetooth 5.0                               |
+| AnTuTu                        | 104,734                                     | 212,920                                     |
+| (Android)                     |                                             |                                             |
+| PassMark CPU Mark             | 1,344                                       | 2,370                                       |
+| (Android)                     |                                             |                                             |
+| Geekbench 5 single core       | 138                                         | 351                                         |
+| (Android)                     |                                             |                                             |
+| Geekbench 5 multi-core        | 590                                         | 1,253                                       |
+| (Android)                     |                                             |                                             |
+| Geekbench 6 single core       | 187                                         | 409                                         |
+| (Android)                     |                                             |                                             |
+| Geekbench 6 multi-core        | 790                                         | 1,325                                       |
+| (Android)                     |                                             |                                             |
