@@ -1,0 +1,2 @@
+# W3 link:
+[Named after the letter M, the em unit has a long-standing tradition in typography where it has been used to measure horizontal widths. For example, the long dash (—) often found in American texts is known as an em dash because historically, it has had the same width as the letter M.](https://www.w3.org/Style/LieBos3e/em.en.html#:~:text=Named%20after%20the%20letter%20M,width%20as%20the%20letter%20M.)
