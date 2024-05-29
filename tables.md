@@ -1,8 +1,9 @@
 # Table of contents
 1. [sub 30](#<30)
     1. [45 and 12](#4512)
-    1. [s9x3 and QS15](#9315)
+    2. [s9x3 and QS15](#9315)
     3. [Ha22 and R35](#2235)
+    4. [s9x3 and R35](#r35-and-s9x3)
 3. [Another paragraph](#paragraph2)
 
 
@@ -157,3 +158,50 @@ Performance / watt ratio		|1,106 pts / W|1,460 pts / W|
 | Geekbench 5 multi-core            | 483                                               | 329                             |
 | SGEMM GFLOPS Performance          | 6.11 GFLOPS                                       | 9.14 GFLOPS                     |
 | Performance / watt ratio          | 564 pts / W                                       | 292 pts / W                     |
+### R35 and s9x3
+| Feature                           | Amlogic S905X3                                      | Rockchip RK3528                |
+|-----------------------------------|----------------------------------------------------|---------------------------------|
+| Market (main)                     | TV Box                                             | TV Box                          |
+| ISA                               | ARMv8.2-A (64-bit)                                 | ARMv8-A (64-bit)                |
+| Microarchitecture                 | Cortex-A55                                         | Cortex-A53                      |
+| Family                            | S9 Gen 3                                           | RK35 Series                     |
+| Part number(s), S-Spec            | S905X3                                             | RK3528                          |
+| Release date                      | 2019 Q4                                            | 2023 Q2                         |
+| Lithography                       | 12 nm                                              | 28 nm HKMG                      |
+| Cores                             | 4                                                  | 4                               |
+| Threads                           | 4                                                  | 4                               |
+| Base frequency                    | 1.91 GHz                                           | 1.5 GHz                         |
+| Turbo frequency                   | -                                                  | -                               |
+| High performance cores            | 4x ARM Cortex-A55 @ 1.91 GHz                      | 4x ARM Cortex-A53 @ 1.51 GHz    |
+| Cache memory                      | 1 MB                                               | 256 KB                          |
+| Max memory capacity               | 4 GB                                               | 4 GB                            |
+| Memory types                      | LPDDR3, LPDDR4-1066                                | LPDDR4/LPDDR4X                  |
+| TDP                               | 5 W                                                | 5 W                             |
+| GPU integrated graphics           | ARM Mali-G31 MP2                                   | ARM Mali-450 MP2                |
+| GPU execution units               | 2                                                  | 2                               |
+| GPU shading units                 | 32                                                 | 32                              |
+| GPU base clock                    | 850 MHz                                            | 300 MHz                         |
+| GPU boost clock                   | 850 MHz                                            | 750 MHz                         |
+| GPU FP32 floating point           | 20.8 GFLOPS                                        | 23.8 GFLOPS                     |
+| Socket                            | SoC                                                | SoC                             |
+| Drystone MIPS                     | 21,600 DMIPS                                       | 13,892 DMIPS                    |
+| AI accelerator                    | NPU, Neural Network Accelerator INT8, PPU 12.8 GFLOPS FP16, 6.4 GFLOPS FP32, 512KB L2 | - |
+| AI computing operations per seconds | 1.2 TOPS                                         | -                               |
+| Crypto engine                     | AES 128/256-bit, DES, TDES, SM4, DVB-CSA, TRNG, CRC, SHA-1/SHA-2/HMAC SHA | - |
+| Security                          | TrustZone, Secure boot, Entropy true RNG, TVP, Secured IO & clock | - |
+| Max display resolution            | 8K@24fps                                           | -                               |
+| Video decoding                    | H.265 8K@24fps, 4K@75fps, H.264 4K@30fps           | H.265, HEVC 8k@25fps, H.264 4K@60fps |
+| Video encoding                    | H.265 1080p@60fps, H.264 1080p@30fps               | -                               |
+| Modem                             | 10/100/1000M Ethernet MAC, 10/100M Ethernet PHY    | -                               |
+| Connectivity                      | USB 2.0, USB 3.0, HDMI 2.1                         | USB 3.0 Type-A, USB 2.0 Type-A, HDMI 2.0 |
+| Wi-Fi                             | Wi-Fi/IEEE 802.11 a/b/g/n                          | Wi-Fi 6 802.11b/g/n/ac/ax        |
+| Bluetooth                         | Bluetooth 4.0                                      | Bluetooth 5.0                   |
+| Audio                             | DAS, I2S, TDM, SPDIF, PCM, PDM                     | -                               |
+| AnTuTu                            | 74,472                                             | 34,632                          |
+| PassMark CPU Mark                 | 414                                                | 493                             |
+| Geekbench 4 single core           | 773                                                | 571                             |
+| Geekbench 4 multi-core            | 2,128                                              | 1,458                           |
+| Geekbench 5 single core           | 132                                                | 103                             |
+| Geekbench 5 multi-core            | 458                                                | 329                             |
+| SGEMM GFLOPS Performance          | 5.33 GFLOPS                                        | 9.14 GFLOPS                     |
+| Performance / watt ratio          | 426 pts / W                                        | 292 pts / W                     |
