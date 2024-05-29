@@ -71,4 +71,4 @@ Geekbench 6 multi-core		|5,385				|4,951
 GFLOPS Performance		|316.94 GFLOPS	|316.4 GFLOPS|		
 (Multi-core / watt performance)
 Performance / watt ratio		|1,106 pts / W|1,460 pts / W|
-### HA22 and R35 <a name="45 35">
+### HA22 and R35 <a name="4535">
