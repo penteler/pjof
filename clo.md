@@ -15,7 +15,7 @@ Only after applying the imported resouce it will continue parsing the rest of th
 #### Modularizing
 The `@import` at rule is usefull for modularizing the CSS code, reuse styles across multiple files and seperate concerns. You also get to use external resources that other people may have provided and it doesn't have to be included in your project. It goes without saying that every import requires an additional HTTP request so you will increase the load times of the webpage if you don't limit the number of import statements.
 # C
-[TOC](#TOC)
+[TOC][def]
 ##### cpas Dte
 In CSS, the @import rule is used to import external style sheets or resources into the current style sheet. When you use @import to import a resource, such as a font or another CSS file, several things happen behind the scenes:
 
@@ -38,3 +38,6 @@ Specificity and Inheritance:
 Styles imported using @import have the same specificity and inheritance rules as other styles in the CSS file.
 Imported styles can cascade and override existing styles based on specificity and order of declaration.
 Overall, the @import rule in CSS provides a way to modularize styles, reuse resources, and manage the organization of CSS files. It allows for better code organization and separation of concerns by breaking up styles into different files and importing them where needed.
+
+
+[def]: #TOC
