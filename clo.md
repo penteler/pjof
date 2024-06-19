@@ -14,31 +14,44 @@ In order to do this the browser will stop parsing the current CSS file when it e
 Only after applying the imported resouce it will continue parsing the rest of the stylesheet. This is to ensure that any prerequisite for the rules that follow will be imported it the right order. For instance an imported font will be available for use in the rest of the stylesheet as a consequence of this the webpage is rendered with the combined styles from the the css file and the imported resources.
 #### Modularizing
 The `@import` at rule is usefull for modularizing the CSS code, reuse styles across multiple files and seperate concerns. You also get to use external resources that other people may have provided and it doesn't have to be included in your project. It goes without saying that every import requires an additional HTTP request so you will increase the load times of the webpage if you don't limit the number of import statements.
+#### Cascade of styles
+
+The cascade of styles has to follow `@import` rule because the imported styles are applied in the order that they are imported. This why you have to include `@import` right after the `@charset` rules.
+#### Specificity and Inheritance:
+##### Styles imported using @import have the same specificity and inheritance rules  as other styles in the CSS file. Imported styles can cascade and override  existing styles based on specificity and order of declar tion.
+![image](https://cdn.jsdelivr.net/gh/MakeSchool-Tutorials/sa-2018-landing-page@master/P06-CSS-Inheritance-And-Specificity/assets/css_specificity_magnitudes.png)
+
+
+
+##### Overall, the @import rule in CSS provides a way to modularize styles, reuse resources, and manage the organization of CSS files. It allows for better code organization and separation of concerns by breaking up styles into different files and importing them where needed.
+
+####
 # Table of contents <a name="TOC"></a>
 1. [W3](#w3)
 # C
 [TOC][def]
-##### cpas Dte
+###### cpas Dte
 In CSS, the @import rule is used to import external style sheets or resources into the current style sheet. When you use @import to import a resource, such as a font or another CSS file, several things happen behind the scenes:
 
-Parsing the CSS File:
+###### Parsing the CSS File:
 When the browser encounters an @import rule in a CSS file, it stops parsing the current file and fetches the resource specified in the @import rule.
 The browser then parses the imported resource as if its contents were directly included in the original CSS file.
-Fetching the Resource:
+###### Fetching the Resource:
 The browser makes an HTTP request to fetch the external resource specified in the @import rule.
 If the resource is a CSS file, the browser downloads the file and processes its contents.
-Applying the Imported Styles:
+###### Applying the Imported Styles:
 Once the external resource is fetched and parsed, the styles defined in that resource are applied to the elements in the document.
 This allows you to use styles, fonts, or other resources defined in the imported file within the current CSS file.
-Order of Import:
+###### Order of Import:
 It's important to note that @import rules must precede all other rules in a CSS file, except for @charset rules.
 The imported styles are applied in the order they are imported, so the order of @import rules can affect the cascade of styles.
-Loading and Rendering:
+###### Loading and Rendering:
 Importing external resources using @import can impact the loading and rendering performance of a webpage.
 Multiple @import rules can result in additional HTTP requests, potentially slowing down the loading of the page.
-Specificity and Inheritance:
+###### Specificity and Inheritance:
 Styles imported using @import have the same specificity and inheritance rules as other styles in the CSS file.
 Imported styles can cascade and override existing styles based on specificity and order of declaration.
+
 Overall, the @import rule in CSS provides a way to modularize styles, reuse resources, and manage the organization of CSS files. It allows for better code organization and separation of concerns by breaking up styles into different files and importing them where needed.
 
 
